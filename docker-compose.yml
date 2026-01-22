@@ -8,7 +8,7 @@ services:
     environment:
       - ENABLE_DEPRECATED_SPECIAL_OUTBOUNDS=true
     ports:
-      - "127.0.0.1:2081:2080"
+      - "127.0.0.1:2080:2080"
     volumes:
       - ./config.json:/etc/sing-box/config.json
     command: -D /var/lib/sing-box -C /etc/sing-box/ run
