@@ -1,0 +1,12 @@
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+config.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
